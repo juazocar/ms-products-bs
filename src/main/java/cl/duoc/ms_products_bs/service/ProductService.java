@@ -21,4 +21,9 @@ public class ProductService {
         lista.add(product3);
         return lista;
     }
+
+    public String addProduct(Product product){
+
+        return "Producto Creado";
+    }
 }
